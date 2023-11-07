@@ -2,7 +2,7 @@ import { TouchableOpacity,StyleSheet, Text } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import firebase from "../FirebaseConnection";
 export default function BotaoEntrar(props){
-
+    
         const email = props.email
         const senha = props.senha
         const navigation = useNavigation();
