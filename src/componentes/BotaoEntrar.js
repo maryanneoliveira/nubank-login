@@ -12,7 +12,6 @@ export default function BotaoEntrar(props){
             .then(( value ) => {
                 navigation.navigate('entrou')      
             })
-    
             .catch((error)=>{
                 alert("Erro no login");
             })
